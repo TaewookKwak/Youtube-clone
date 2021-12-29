@@ -1,0 +1,12 @@
+.videos {
+  display: flex;
+  margin: 0.5em;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.video {
+  display: inline-block;
+  list-style: none;
+  margin: 0.5em;
+}

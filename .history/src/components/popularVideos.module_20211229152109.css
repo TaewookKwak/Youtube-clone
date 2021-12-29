@@ -1,0 +1,7 @@
+.videos {
+  display: flex;
+}
+
+.video {
+  list-style: none;
+}

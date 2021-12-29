@@ -1,0 +1,9 @@
+.videos {
+  display: flex;
+  margin: 1em;
+  padding: 0;
+}
+
+.video {
+  list-style: none;
+}

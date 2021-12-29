@@ -1,0 +1,21 @@
+.videos {
+  display: flex;
+  margin: 0.5em;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0.5em;
+}
+
+.thumbnail {
+  width: 17em;
+}
+
+.title {
+  font-size: 15px;
+}
