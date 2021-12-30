@@ -6,6 +6,15 @@
 
 .logo {
   margin: 0.5em;
+  cursor: pointer;
+}
+
+.logo i {
+  color: red;
+}
+
+.logo_title {
+  font-weight: 800;
 }
 
 .search {

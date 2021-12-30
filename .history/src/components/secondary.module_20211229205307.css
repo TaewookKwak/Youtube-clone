@@ -1,0 +1,25 @@
+.playlist {
+  padding: 0;
+  margin: 0;
+}
+
+.playlist_video {
+  list-style: none;
+  display: flex;
+  margin: 0.5em;
+}
+
+.metadata {
+  display: flex;
+}
+
+.title {
+  font-size: 13px;
+}
+.thumbnail {
+  width: 10em;
+}
+.channelTitle {
+  font-size: 10px;
+  color: gray;
+}
