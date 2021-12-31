@@ -2,10 +2,6 @@
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid rgb(179, 170, 170);
-  align-items: center;
-  position: sticky;
-  top: 0;
-  background-color: white;
 }
 
 .logo {
@@ -26,16 +22,11 @@
 .searchBar {
   width: 20em;
   height: 2em;
-  padding: 0;
-  border: 1 solid black;
-  border-radius: 10px;
+  padding: 0em;
 }
 
 .searchBtn {
   height: 2em;
-  border: 1 solid black;
-  border-radius: 10px;
-  padding: 0em;
 }
 
 .search svg {

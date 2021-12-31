@@ -33,7 +33,7 @@ function Search(props) {
             onChange={handleUserInput}
             className={styles.searchBar}
           />
-          <button className={styles.searchBtn}>
+          <button>
             <i class="fas fa-search"></i>
           </button>
           <i class="fas fa-microphone"></i>

@@ -17,7 +17,7 @@ function Search(props) {
 
   return (
     <>
-      <nav className={styles.navigate}>
+      <nav className={styles.searchBar}>
         <Link to={`/home`}>
           <div className={styles.logo}>
             <i class="fab fa-youtube"></i>
@@ -31,9 +31,8 @@ function Search(props) {
             placeholder="Keyword.."
             value={inputValue}
             onChange={handleUserInput}
-            className={styles.searchBar}
           />
-          <button className={styles.searchBtn}>
+          <button>
             <i class="fas fa-search"></i>
           </button>
           <i class="fas fa-microphone"></i>

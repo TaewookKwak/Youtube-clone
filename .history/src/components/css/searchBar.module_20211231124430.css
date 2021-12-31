@@ -1,11 +1,7 @@
-.navigate {
+.searchBar {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid rgb(179, 170, 170);
-  align-items: center;
-  position: sticky;
-  top: 0;
-  background-color: white;
 }
 
 .logo {
@@ -23,24 +19,8 @@
   margin: 0.5em;
 }
 
-.searchBar {
-  width: 20em;
-  height: 2em;
-  padding: 0;
-  border: 1 solid black;
-  border-radius: 10px;
-}
-
-.searchBtn {
-  height: 2em;
-  border: 1 solid black;
-  border-radius: 10px;
-  padding: 0em;
-}
-
 .search svg {
   margin: 0 0.5em;
-  cursor: pointer;
 }
 
 .acountAndEtc {
@@ -52,6 +32,7 @@
   cursor: pointer;
 }
 
+.search svg,
 .acountAndEtc svg :hover {
   transform: scale(1.2);
   color: red;
