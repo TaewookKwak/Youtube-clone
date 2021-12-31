@@ -8,9 +8,7 @@ function Search(props) {
   const inputRef = useRef()
   const handleSubmit = (e) => {
     e.preventDefault()
-    navigate('/Youtube-clone/result', {
-      state: { keyword: inputRef.current.value },
-    })
+    navigate('/result', { state: { keyword: inputRef.current.value } })
     setInputValue('')
   }
   const handleUserInput = (e) => {

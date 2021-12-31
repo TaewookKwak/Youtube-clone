@@ -15,9 +15,9 @@ function App() {
     <div>
       <Router>
         <Routes>
-          <Route path="Youtube-clone/home" element={<Home />} />
-          <Route path="Youtube-clone/result" element={<Result />} />
-          <Route path="Youtube-clone/video/:id" element={<Video />} />
+          <Route path="/home/" element={<Home />} />
+          <Route path="/result" element={<Result />} />
+          <Route path="/video/:id" element={<Video />} />
         </Routes>
       </Router>
     </div>
